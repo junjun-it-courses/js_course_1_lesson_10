@@ -5,12 +5,26 @@
 //Это похоже на строковый метод str.slice, но вместо подстрок возвращает подмассивы.
 
 let arr = ["t", "e", "s", "t"];
+
+console.log(arr)
+
 const copiedElements = arr.slice(1, 3);
 const copiedElementsFromTheEnd = arr.slice(-2);
 
 console.log(copiedElements, copiedElementsFromTheEnd);
 
+console.log(arr)
 
 // Можно делать копию массива если вызываем slice без аргуметоов
-let arrayCopy = arr.slice();
-console.log(arrayCopy);
+// console.log(arr)
+//
+// let arrayCopy = arr.slice();
+// console.log(arrayCopy);
+//
+//
+
+// let arrCopy = arr.slice();
+//
+// arrCopy[0] = 'asda'
+//
+// console.log(arr, arrCopy)

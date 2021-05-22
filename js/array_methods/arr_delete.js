@@ -7,3 +7,5 @@ const array = ['apple', 'banana', 'grapefruit', 'orange', 'potato', 'cucumber', 
 delete array[3];
 console.log(array);
 console.log(array.length);
+
+//

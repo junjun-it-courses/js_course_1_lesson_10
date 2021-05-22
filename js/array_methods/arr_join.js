@@ -3,4 +3,6 @@
 const array = ['apple', 'banana', 'grapefruit', 'orange', 'potato', 'cucumber', 'melon', 'cherry'];
 const stringOfFruits = array.join('; ');
 
+console.log(array)
+
 console.log(stringOfFruits);

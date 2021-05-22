@@ -4,5 +4,22 @@
 
 //Например, здесь мы преобразуем каждый элемент в его длину:
 let arr = ["Bilbo", "Gandalf", "Nazgul"]
-let lengths = arr.map(item => item.length);
-alert(lengths); // 5,7,6
+
+
+let lengths = arr.map(
+    function (item) {
+        return item.length;
+    }
+);
+
+console.log(arr);
+console.log(lengths); // 5,7,6
+
+//
+//
+// function arrayMapIter (item, index) {
+//     return item + '_' + index;
+// }
+//
+// let newIndexInVal = arr.map(arrayMapIter);
+// console.log(newIndexInVal)

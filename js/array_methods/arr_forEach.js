@@ -3,8 +3,17 @@
 //     // ... делать что-то с item
 // });
 
-// const arr = ["Bilbo", "Gandalf", "Nazgul"]
+const arr = ["Bilbo", "Gandalf", "Nazgul"];
+
+arr.forEach(
+    function (item, index, array) {
+        console.log(`${item} имеет позицию ${index} в ${array}`);
+    }
+);
+
+
+// function iterArr(item, index) {
+//     alert(item + '_' + index);
+// }
 //
-// arr.forEach((item, index, array) => {
-//     alert(`${item} имеет позицию ${index} в ${array}`);
-// });
+// arr.forEach(iterArr)
